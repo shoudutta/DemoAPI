@@ -1,0 +1,8 @@
+Day 1 - 
+-> Empty MVC application
+-> Run the application & note the output - flow of application + read the trace
+-> Add a home controller - "welcome to my project"
+-> Where is it being hosted(port number)?
+-> Try out all the local hosting methods
+-> Create an Excel file/SQL table - id(int), name(string), mobile number(int) - my own details
+-> Create a model to access the file and display in the home controller.

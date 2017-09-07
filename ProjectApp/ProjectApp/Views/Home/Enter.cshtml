@@ -1,0 +1,17 @@
+﻿@model ProjectApp.Models.EmpModel
+
+<h2>Add Employee</h2>
+
+@using (Html.BeginForm("Enter", "Home", FormMethod.Post))
+{
+    <p>
+    @Html.LabelFor(x => x.empId) @Html.TextBoxFor(x => x.empId)
+    </p>
+    <p>
+        @Html.LabelFor(x=>x.empName) @Html.TextBoxFor(x=>x.empName)
+    </p>
+    <p>
+        @Html.LabelFor(x=>x.empMobile) @Html.TextBoxFor(x=>x.empMobile)
+    </p>
+<input type="submit" class="btn" value="Add Employee!" />
+}

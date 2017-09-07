@@ -1,0 +1,29 @@
+﻿@model IEnumerable<ProjectApp.Models.EmpModel>
+
+<table class="table">
+   <tr>
+        <th>
+            ID
+        </th>
+        <th>
+            Name
+        </th>
+        <th>
+            Mobile Phone Number
+        </th>
+    </tr>
+@foreach (var emp in Model)
+{
+    <tr>
+        <td>
+            @Html.DisplayFor(x => emp.empId)
+        </td>
+        <td>
+            @Html.DisplayFor(x => emp.empName)
+        </td>
+        <td>
+            @Html.DisplayFor(x => emp.empMobile)
+        </td>
+    </tr>
+}
+</table>
